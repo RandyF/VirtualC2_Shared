@@ -88,7 +88,6 @@ public class HUDControl : MonoBehaviour
         _WorkoutCadence.SetText(tHUDStr);
 
         tHUDStr = string.Format("{0}m", _Rower.WorkoutDistanceMeters.ToString());
-        Debug.Log(tHUDStr);
         _WorkoutDistance.SetText(tHUDStr);
 
         int tDurSTotal = _Rower.WorkoutDurationSeconds;
