@@ -64,9 +64,9 @@ namespace Concept2Client
         // Start is called before the first frame update
         void Start()
         {
-            InitializeClient();
-            C2_LoadDistanceWorkout();
-            C2_StartWorkout();
+            //InitializeClient();
+            //C2_LoadDistanceWorkout();
+            //C2_StartWorkout();
         }
 
         ~RowerClient()

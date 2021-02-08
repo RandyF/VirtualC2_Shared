@@ -22,14 +22,14 @@ public class BoatCore : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    { 
         InitializeBoat();
     }
 
 
     // Update is called once per frame
     void Update()
-    {
+    { 
         CalculatePosition();
         PositionBoat();
     }
@@ -53,7 +53,7 @@ public class BoatCore : MonoBehaviour
     {
         string tDbg = string.Format("Z0:{0} Z1:{1} Vz:{2}", _posZ, _TargetZ, _VelocityZ);
         //Debug.Log(tDbg);
-        transform.position = new Vector3(_posX, _posY, _posZ);
+        transform.localPosition = new Vector3(_posX, _posY, _posZ);
     }
 
     private void CalculatePosition()
